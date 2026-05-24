@@ -1,0 +1,76 @@
+*{
+    box-sizing: border-box;
+}
+body {
+    background-color: rgb(226, 226, 223);
+    font-family: Arial, Helvetica, sans-serif;
+}
+#top {
+    margin-top: 80px;
+    height: 500px;
+    display: flex;
+    align-items: center;
+}
+h2 {
+    text-align: center;
+}
+#meet {
+    font-size: 50px;
+    background-color: rgb(180, 186, 181);
+    border-radius: 15px;
+    color: rgb(19, 18, 18);
+}
+.boxi {
+    border-radius: 25px;
+    background-color: rgb(180, 186, 181);
+    color: rgb(19, 18, 18);
+    padding: 25px 25px;
+}
+/* cards */
+.card_container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    color: rgb(19, 18, 18);
+    margin: 40px 0px;
+}
+.card_container .card {
+    flex-basis: 30%;
+    border: 1px solid rgb(226, 226, 223);
+    margin-bottom: 100px;
+    margin: 25px;
+    padding: 20px 10px;
+    text-align: center;
+    background-color: rgb(180, 186, 181);
+    border-radius: 20px;
+}
+.card img {
+    width: 60%;
+    height: 300px;
+    border: 3px solid rgb(226, 226, 223);
+    border-radius: 15px;
+}
+.info_container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    border: 1px solid rgb(180, 186, 181);
+    width: 80%;
+    margin: auto;
+}
+.info_container > .text {
+    flex-basis: 60%;
+}
+.info_container > .img_box {
+    flex-basis: 30%;
+}
+.info_container .img_box img {
+    width: 300px;
+    height: 250px;
+}
+/* for responsiveness of info container */
+/* @media screen and (max-width:768px){
+    .info_container {
+        justify-content: center;
+    }
+} */

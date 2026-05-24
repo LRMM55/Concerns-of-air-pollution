@@ -1,0 +1,42 @@
+nav {
+    width:100%;
+    background-color: rgb(179, 180, 186);
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding-top: 25px;
+}
+#nav {
+    border: 1px solid rgb(179, 180, 186);
+}
+nav .left_ul li{
+    margin-bottom: 20px;
+    display:inline-block;
+}
+nav .left_ul li a{
+    text-decoration: none;
+    font-size: 20px;
+    color: rgb(19, 18, 18);
+    margin: 8px;
+}
+.logo {
+    width:45px;
+    height: 45px;
+    float:left;
+    padding-top: 5px;
+    padding-left: 5px;
+    margin:0 30px;
+    border-radius: 50%;
+}
+/* #check {
+    display: none;
+}
+.checkbtn {
+    float: right;
+    font-size: 40px;
+    color: #ffffff00;
+    line-height: 60px;
+    margin-right:60px;
+    display: none;
+} */
